@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int t;
+    cin>>t;
+    int X;
+    cin>>X;
+        int ready=0,notready=0;
+        for(int i=0; i<t;++i)
+        
+        
+        if(X%2==0)
+       ++ready;
+        else
+        ++notready;
+    
+    if(ready>notready)
+    cout<<"READY FOR BATTLE"<<endl;
+    else
+    cout<<"NOT READY"<<endl;
+    
+    return 0;
+}
+    
